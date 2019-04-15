@@ -9,7 +9,7 @@ description: How to deploy Nuxt.js app with Now?
 
 **Note:** You cannot deploy a server-side-rendered Nuxt app with Now V2 right now. Please use Now V1 for such apps.
 
-To deploy with [ZEIT Now](https://zeit.co/now) you need to customize `package.json` add create a `now.json` config.
+To deploy using [ZEIT Now](https://zeit.co/now) you need to customize `package.json` and create a `now.json` config.
 
 * Add `now-build` script command to `package.json`:
   * For SPA (without SSR):
